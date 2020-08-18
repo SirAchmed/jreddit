@@ -3,7 +3,6 @@ using RedditSharp; // reddit API
 using System.Linq; // queries
 using System.Collections.Generic; // lists
 using System.IO; // read/write files
-//using System.Drawing;
 
 namespace JReddit
 {
@@ -446,18 +445,5 @@ namespace JReddit
             Console.WriteLine("\nPress any key to go back to the main menu.");
             Console.ReadKey();
         }
-        /*
-        void Beast()
-        {
-            Bitmap bufl = new Bitmap(pf.Width, pf.Height);
-            using (Graphics g = Graphics.FromImage(bufl))
-            {
-                g.FillRectangle(Brushes.Black, new Rectangle(0, 0, pf.Width, pf.Height));
-                DrawItems(g);
-                DrawMoreItems(g);
-                pf.CreateGraphics().DrawImageUnscaled(bufl, 0, 0);
-            }
-        }*/
-
     }
 }
