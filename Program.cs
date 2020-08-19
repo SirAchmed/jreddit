@@ -14,7 +14,7 @@ namespace JReddit
             List<string> subs; // subs
             Reddit impReddit; // account you want to import to
             Reddit expReddit; ; // account you want to export from
-            string subFilePath, userFilePath;
+            string subFilePath, userFilePath; // variables
             Console.Clear();
         login:
             Console.WriteLine("\n\n\nPlease log in to your Reddit account\n\n");
