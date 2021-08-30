@@ -36,7 +36,6 @@
 /Users/achmed/C#_Projects/JReddit/JReddit/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
 /Users/achmed/C#_Projects/JReddit/JReddit/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
 /Users/achmed/C#_Projects/JReddit/JReddit/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
-/Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.csprojAssemblyReference.cache
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.AssemblyInfoInputs.cache
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.AssemblyInfo.cs
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.csproj.CoreCompileInputs.cache
@@ -44,3 +43,5 @@
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.dll
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.pdb
 /Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.genruntimeconfig.cache
+/Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.csproj.AssemblyReference.cache
+/Users/achmed/C#_Projects/JReddit/JReddit/obj/Debug/netcoreapp3.1/JReddit.GeneratedMSBuildEditorConfig.editorconfig

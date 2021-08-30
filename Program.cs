@@ -304,9 +304,18 @@ namespace JReddit
             int i = 0;
             foreach (string subreddit in subs)
             {
-                acc.GetSubreddit(subreddit).Subscribe();
-                i++;
-                Console.WriteLine($"Subscribed {acc.User} to {subreddit} ({i} of {subs.Count})");
+                try
+                {
+                    acc.GetSubreddit(subreddit).Subscribe();
+                    i++;
+                    Console.WriteLine($"Subscribed {acc.User} to {subreddit} ({i} of {subs.Count})");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"Could not subscribe to {subreddit}. Please make sure this sub exists and is not private.");
+                    Console.WriteLine(e);
+                }
+
             }
             Console.WriteLine($"\nSuccessfully subscribed to {subs.Count} subreddits.");
         }
@@ -368,7 +377,7 @@ namespace JReddit
             }
             Console.WriteLine($"\nSuccessfully unfollowed {users.Count} users.");
         }
-        public static void ShowSubsUsers(Reddit acc, out List<string> users, out List<string> subs)
+        public static void ShowSubsUsers(Reddit acc, out List<string> subs, out List<string> users)
         {
             users = new List<string>();
             subs = new List<string>();
