@@ -313,7 +313,7 @@ namespace JReddit
                 catch (Exception e)
                 {
                     Console.WriteLine($"Could not subscribe to {subreddit}. Please make sure this sub exists and is not private.");
-                    Console.WriteLine(e);
+                    Console.WriteLine(e.Message);
                 }
 
             }
